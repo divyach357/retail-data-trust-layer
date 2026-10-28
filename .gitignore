@@ -1,0 +1,17 @@
+# Raw data is NOT committed (Kaggle competition data; large files)
+data/
+*.csv
+*.zip
+# Secrets
+.env
+profiles.yml
+*.pem
+*.p8
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
